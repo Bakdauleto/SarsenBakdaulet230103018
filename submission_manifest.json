@@ -1,0 +1,45 @@
+{
+    "GITHUB_USERNAME": "Bakdauleto",
+    "gpu_uuid": "GPU-fe2bc96f-43c6-ce1c-1252-c9c2f4bbbcb2",
+    "INSTANCE_SEED": 878928372011112414,
+    "mpi_ranks": 4,
+    "cartesian_dims": [
+        2,
+        2
+    ],
+    "global_shape": [
+        512,
+        512
+    ],
+    "local_padded_shape": [
+        258,
+        258
+    ],
+    "steps": 400,
+    "dt": 1.9790846956e-06,
+    "dt_max": 3.9581693913e-06,
+    "serialized_ms": 5336.785,
+    "overlapped_ms": 1861.28,
+    "serialized_cuda_event_ms_10_steps": 45.525,
+    "overlapped_cuda_event_ms_10_steps": 60.885,
+    "parity_max_diff": 0.0,
+    "ptx_counts": {
+        "st.shared.f64": 5,
+        "ld.shared.f64": 5,
+        "bar.sync": 1
+    },
+    "ptx_audit_passed": true,
+    "global_l2_residual_step_1": 0.004551909700949,
+    "energy_trace": {
+        "100": 0.0380648292015,
+        "200": 0.03806387718638,
+        "300": 0.03806296034182,
+        "400": 0.03806204313883
+    },
+    "l2_residual_trace": {
+        "100": 0.004458928120616,
+        "200": 0.004396432736983,
+        "300": 0.004335462010616,
+        "400": 0.00427593577324
+    }
+}
